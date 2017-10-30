@@ -1,0 +1,150 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+
+.main-nav-content ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: rgb(70, 70, 70);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+#main-nav{
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 50px;
+	z-index: 20;
+	transition: all 0.3s ease-out;
+}
+
+.main-nav-content{
+	position: relative;
+	/*margin: 0 15%;*/
+	/*width: 70%;*/
+	height: 50px;
+	border-bottom: none;
+	border-top: none;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.main-nav-content ul li{
+	display: inline-block;
+	padding: 1rem;
+	/*text-align: center;*/
+  flex-grow: 1;
+}
+
+.nav-item a{
+	padding: 0.3rem 1rem;
+	font-size: 1rem;
+	color: white;
+	/*font-weight: 500;*/
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1.5px solid transparent;
+	transition: all 0.2s ease-out;
+}
+
+.nav-item a:hover, .nav-item a:focus, .nav-item a:active{
+	border: 1.5px solid white;
+}
+
+#main-content {
+  padding-top: 4rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.in-text-link {
+  color: rgb(100, 100, 100);
+  font-weight: 700;
+}
+
+.in-text-link:hover {
+  color: #026699;
+}
+
+/*.interactive-elements {
+  width: 95%;
+  margin: 0 auto;
+}*/
+
+.element-row {
+  margin-bottom: 4rem;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #026699;
+  color: #026699;
+  transition: 0.6s;
+}
+
+.nav-button:hover {
+  color: white;
+  background-color: #026699;
+}
+
+.name-label, .input-label {
+  display: block;
+}
+
+.name-label {
+  margin-bottom: 0.5rem;
+}
+
+.input-label {
+  padding: 0.5rem;
+}
+
+.color-swatch {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.color-swatch p {
+  text-align: center;
+}
+
+.color-swatch.black, .color-swatch.blue {
+  color: white;
+}
+
+.color-swatch.black {
+  background-color: black;
+}
+
+.color-swatch.blue {
+  background-color: #026699;
+}
