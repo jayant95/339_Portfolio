@@ -19,26 +19,61 @@
         <ul>
           <li class="nav-item"><a id="about-btn" href="#home-container">Work</a></li>
           <li class="nav-item"><a href="#contact-container">Resume</a></li>
-          <li class="nav-item"><a href="#projects-container">About</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
         </ul>
       </div>
     </nav>
 
     <div id="main-content">
       <div class="project-image">
+        <img src="img/nomadBookings.png" alt="nomad booking app screens">
       </div>
 
       <div class="project-info">
-        <h1>Project Name</h1>
+        <h1>Nomad Bookings</h1>
       </div>
 
       <div class="project-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et bibendum eros. Maecenas fermentum rutrum est,
-          ac rutrum diam fringilla at. Vestibulum viverra ut nulla bibendum convallis. Ut feugiat, dolor sed molestie tempus,
-          nisl nunc ultrices ligula, vel hendrerit augue ante eget elit. Donec tristique urna risus, at ullamcorper nunc gravida id.
-          Vestibulum lacinia vulputate sagittis. Maecenas eleifend consectetur efficitur. Sed urna enim, tempus mattis maximus nec,
-          eleifend id nibh. Duis lorem diam, pharetra a fermentum id, congue nec mi. Cras hendrerit euismod nunc, a eleifend justo iaculis
-          in. Integer fringilla dui eget nulla efficitur sollicitudin. Donec purus felis, pretium vitae nisl vel, mollis suscipit turpis.
+        <p>The objective of this project was to propose and create a working prototype of a useful application for the Android OS.
+          It had to incorporate several classes including intents, device hardware and a database. Group of 2
+        </p>
+
+        <h3>Research</h3>
+        <p>We knew from the beginning that we did not want to create a game application. Instead, we wanted to create a utility
+          application to push ourselves out of our comfort zones in order to learn about new technologies such as Google API's.
+          The idea for a travel app came from my partner as she travels a lot and uses apps such as Expedia to look for flights.
+          We thought this was a great idea for an app and wanted to expand so we could search for hotels, car rentals, and local
+          attractions. We wanted this to be an all in one app aimed towards users who are constantly travelling.
+        </p>
+
+        <h3>Process</h3>
+        <p>We created a timeline for each week so we would keep on track and work in a timely manner. We stuck with this throughout the
+          development of the application. For our first milestone we implemented each tab that
+          linked to each other in addition to explicit intents that took the user information and displayed the results in google.
+          For our second milestone, I implemented the devices GPS feature which found the latitude and longitude and converted it
+          into a city name. We planned to use this for the flights section of our app. However, when we learned of the QPX Express API,
+          we realized that it needed an airport code so we instead moved the GPS location to the hotels, car rentals and attractions.
+          This was so the user did not have to type in their location but instead was already there when they open the tab.
+        </p>
+      </div>
+
+      <div class="project-process">
+        <div class="process-img">
+        </div>
+        <div class="process-img">
+        </div>
+        <div class="process-img">
+        </div>
+      </div>
+
+      <div class="project-content">
+        <p>By the final milestone I completely revamped and redesigned the whole app using calendars, dropdowns, buttons, and a design
+          that looked more professional. The core idea of the app remained untouched but the UI of it was completely changed. QPX Express
+           API was used to get valuable flight information regarding the users input. The user could input their location and destination
+            from a preset dropdown list and departure date from a calendar which in turn would provide the price, airline, and duration
+            for the top 3 deals. Since this data retrieval takes a few seconds I put it in a AsyncTask(separate thread) so the UI would
+            not freeze. I implemented a loading spinner so the user knows that the app is loading the results. The database feature was
+            accomplished with an SQLite Database to allow the user to save their search and allow to search for it later on.
         </p>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et bibendum eros. Maecenas fermentum rutrum est,
@@ -60,20 +95,21 @@
       </div>
 
       <div class="project-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et bibendum eros. Maecenas fermentum rutrum est,
-          ac rutrum diam fringilla at. Vestibulum viverra ut nulla bibendum convallis. Ut feugiat, dolor sed molestie tempus,
-          nisl nunc ultrices ligula, vel hendrerit augue ante eget elit. Donec tristique urna risus, at ullamcorper nunc gravida id.
-          Vestibulum lacinia vulputate sagittis. Maecenas eleifend consectetur efficitur. Sed urna enim, tempus mattis maximus nec,
-          eleifend id nibh. Duis lorem diam, pharetra a fermentum id, congue nec mi. Cras hendrerit euismod nunc, a eleifend justo iaculis
-          in. Integer fringilla dui eget nulla efficitur sollicitudin. Donec purus felis, pretium vitae nisl vel, mollis suscipit turpis.
+        <h3>Challenges</h3>
+        <p>The biggest challenge of this project was the implementation of the Google API QPX Express. This proved to be quite
+           challenging as it was my first time using an API but was incredibly rewarding once working and implemented. There were not any
+           examples showing how to even begin integrating QPX Express in Android Studio as most of them were done in PHP or C# for websites.
+           I managed to find one that was done in Java but not Android Studio. This gave me a good starting point as I worked from there to get
+           the data I wanted inside my app. This whole process took around a week to complete but was extremely necessary to get done to make
+           the application practical and useful.
         </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et bibendum eros. Maecenas fermentum rutrum est,
-          ac rutrum diam fringilla at. Vestibulum viverra ut nulla bibendum convallis. Ut feugiat, dolor sed molestie tempus,
-          nisl nunc ultrices ligula, vel hendrerit augue ante eget elit. Donec tristique urna risus, at ullamcorper nunc gravida id.
-          Vestibulum lacinia vulputate sagittis. Maecenas eleifend consectetur efficitur. Sed urna enim, tempus mattis maximus nec,
-          eleifend id nibh. Duis lorem diam, pharetra a fermentum id, congue nec mi. Cras hendrerit euismod nunc, a eleifend justo iaculis
-          in. Integer fringilla dui eget nulla efficitur sollicitudin. Donec purus felis, pretium vitae nisl vel, mollis suscipit turpis.
+        <h3>Outcome & Insights</h3>
+        <p>I am quite satisfied with the outcome of this application. I am glad that I pushed myself to learn new technology and how Google
+           API's work. We presented our application prototype successfully to a class of 30 including the teaching assistant and professor.
+           I am going to continue with this application but focus more on the flights section. I would like to make this part into an app of
+           its own with more features and implement a way to click on the results to get more information. Right now it only searches for
+           one-way prices but I would like to learn and implement both one-way and round trip deals.
         </p>
       </div>
     </div>
