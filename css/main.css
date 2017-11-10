@@ -1,3 +1,7 @@
+*, *::after, *::before{ /* star is select all ||| pseudo elements rednered after page?*/
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
@@ -59,8 +63,8 @@ footer {
 
 .logo img {
   padding-left: 1rem;
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
 }
 
 .site-logo {
@@ -108,10 +112,11 @@ footer {
 #main-content {
   padding-top: 3rem;
   margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
 .page-content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -212,4 +217,50 @@ footer {
   height: 300px;
   width: 33%;
   background-color: rgb(200, 200, 200);
+}
+
+/*-----index.html--------------------*/
+
+.home-container {
+  position: absolute;
+}
+
+.home-image {
+  height: 700px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.home-image img {
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.home-name {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+
+.home-name h1 {
+  letter-spacing: 1px;
+  font-size: 3rem;
+  color: white;
+}
+
+.home-projects h1 {
+  text-align: center;
+}
+
+.my-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  background-color: rgb(200, 200, 200);
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
 }
