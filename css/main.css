@@ -358,3 +358,27 @@ padding-bottom: 51%;
 .about-me h3 {
   text-align: center;
 }
+
+.other-projects {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.other-work {
+  border: 1px solid black;
+  margin: 1rem;
+  flex: 1;
+  transition: 1s;
+}
+
+.other-work:hover {
+  cursor: pointer;
+  background-color: #026699;
+}
+
+.other-work:hover a {
+  color: white;
+}
