@@ -1,0 +1,26 @@
+@media(min-width: 40.625em){
+  .mobile-nav {
+    display: none;
+    visibility: hidden;
+  }
+
+  .right-nav {
+    display: block;
+    visibility: visible;
+  }
+
+  .main-nav-content {
+    border-bottom: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media(min-width: 33.75em) {
+  .hamburger-menu img {
+    width: 30%;
+  }
+}

@@ -59,6 +59,26 @@ iframe {
 	transition: all 0.3s ease-out;
 }
 
+.mobile-nav {
+  text-align: center;
+  background-color: black;
+  display: flex;
+}
+
+.mobile-nav ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav li {
+  align-self: stretch;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
 .logo {
   display: flex;
   left: 0;
@@ -78,7 +98,7 @@ iframe {
   font-size: 1.2rem;
 }
 
-.main-nav-content{
+.main-nav-content {
 	position: relative;
 	/*margin: 0 15%;*/
 	/*width: 70%;*/
@@ -89,6 +109,23 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  border-bottom: 1px solid white;
+}
+
+.right-nav {
+  display: none;
+  visibility: hidden;
+}
+
+.hamburger-menu {
+  width: 15%;
+  text-align: center;
+  margin-top: 1rem;
+  /*justify-content: flex-end;*/
+}
+
+.hamburger-menu img {
+  width: 40%;
 }
 
 .main-nav-content ul li{
