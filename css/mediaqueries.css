@@ -25,6 +25,12 @@
   }
 }
 
+@media(min-width: 46.875em) {
+  .project-container {
+    width: 40%;
+  }
+}
+
 @media(min-width: 56.25em) {
   .project-info, .project-content {
     width: 60%;

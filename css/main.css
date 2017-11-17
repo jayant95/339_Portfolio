@@ -294,19 +294,19 @@ iframe {
 
 /*-----index.html--------------------*/
 
-.home-container {
-  position: absolute;
+.homepage-container {
+  background: url('../img/code_background.png') no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  filter: brightness(90%);
 }
 
 .home-image {
   height: 700px;
   overflow: hidden;
   z-index: 0;
-}
-
-.home-image img {
-  width: 100%;
-  filter: brightness(30%);
 }
 
 .home-name {
@@ -335,7 +335,7 @@ iframe {
 
 .project-container {
   /*background-color: rgb(200, 200, 200);*/
-  width: 40%;
+  /*width: 40%;*/
   /*height: 400px;*/
   transition: 1s;
   /*border: 1px solid black;*/
