@@ -7,6 +7,9 @@ body {
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
 
 .main-nav-content ul{
   text-decoration: none;
@@ -156,9 +159,13 @@ iframe {
   padding-bottom: 1rem;
 }
 
+.page-main-content {
+  width: 100%;
+}
+
 .page-content {
-  width: 70%;
-  margin: 0 auto;
+  /*width: 70%;
+  margin: 0 auto;*/
 }
 
 /*-------STYLE GUIDE--------------*/
@@ -231,7 +238,7 @@ iframe {
 /*-------PAGE TEMPLATE--------------*/
 
 .project-info, .project-content {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -274,9 +281,9 @@ iframe {
 
 .youtube-video {
   position: relative;
-width: 100%;
-height: 0;
-padding-bottom: 51%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
 }
 
 .youtube-video iframe {
@@ -401,6 +408,7 @@ padding-bottom: 51%;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 
@@ -409,6 +417,10 @@ padding-bottom: 51%;
   margin: 1rem;
   flex: 1;
   transition: 1s;
+}
+
+.other-work h3, .other-work p{
+  margin: 1rem;
 }
 
 .other-work:hover {

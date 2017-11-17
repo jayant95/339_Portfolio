@@ -24,3 +24,17 @@
     width: 30%;
   }
 }
+
+@media(min-width: 56.25em) {
+  .project-info, .project-content {
+    width: 60%;
+  }
+}
+
+/*
+<!-- http://d9hhrg4mnvzow.cloudfront.net/discover.sapanalytics.cloud/trialrequest-auto-1/c70c79a8-screenshot-2017-05-11-09-53-21.png -->
+<!-- https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489695759/akamai.png -->
+<!-- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png -->
+<!-- https://www.sayonetech.com/static/assets/images/logos/jasmine.png -->
+<!-- https://maven.apache.org/images/maven-logo-black-on-white.png -->
+<!-- https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png -->*/
