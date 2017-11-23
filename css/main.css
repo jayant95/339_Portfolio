@@ -154,7 +154,7 @@ iframe {
 }
 
 #main-content {
-  padding-top: 3rem;
+  padding-top: 15rem;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
@@ -242,6 +242,10 @@ iframe {
   margin: 0 auto;
 }
 
+.project-info {
+  font-family: monospace;
+}
+
 .project-image {
   /*width: 100%;*/
   margin: 0 auto;
@@ -295,12 +299,12 @@ iframe {
 /*-----index.html--------------------*/
 
 .homepage-container {
-  background: url('../img/code_background.png') no-repeat center center fixed;
+  background: url('../img/code_background1.png') no-repeat center center fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  filter: brightness(90%);
+  margin-top: -2rem;
 }
 
 .home-image {
@@ -312,18 +316,26 @@ iframe {
 .home-name {
   position: absolute;
   left: 10%;
-  top: 40%;
+  top: 50%;
 }
 
 .home-name h1 {
   letter-spacing: 1px;
-  font-size: 3rem;
   color: white;
+}
+
+.full-name {
+  font-size: 2rem;
+}
+
+.name-description {
+  font-size: 1.5rem;
 }
 
 .home-projects h2 {
   text-align: center;
   font-size: 2rem;
+  font-family: monospace;
 }
 
 
@@ -391,7 +403,7 @@ iframe {
 .about-me {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 245, 245);
 }
 
 .about-me p {
@@ -411,7 +423,6 @@ iframe {
   flex-wrap: wrap;
 }
 
-
 .other-work {
   border: 1px solid black;
   margin: 1rem;
@@ -429,5 +440,45 @@ iframe {
 }
 
 .other-work:hover a {
+  color: white;
+}
+
+
+.container-project {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.project-image.work-image {
+  flex: 1;
+  flex-basis: 100%;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+.project-description {
+  flex: 1;
+  text-align: center;
+  flex-basis: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project-description p {
+  line-height: 1.5rem;
+}
+
+.project-learn-more {
+  padding: 0.5rem 1rem;
+  background-color: #026699;
   color: white;
 }
