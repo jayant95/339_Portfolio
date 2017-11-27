@@ -1,4 +1,9 @@
-@media(min-width: 40.625em){
+@media(min-width: 40.625em) {
+
+  p {
+    font-size: 1.1rem;
+  }
+
   .mobile-nav {
     display: none;
     visibility: hidden;
@@ -32,6 +37,14 @@
 
   .name-description {
     font-size: 2.5rem;
+  }
+
+  .project-image img {
+    width: 70%;
+  }
+
+  .process-img {
+    width: 50%;
   }
 }
 

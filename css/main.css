@@ -29,7 +29,7 @@ h1 {
 
 p {
   font-family: "Open Sans";
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 2rem;
 }
 
@@ -72,14 +72,17 @@ iframe {
   width: 100%;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  border-bottom: 1px solid white;
 }
 
 .mobile-nav li {
   align-self: stretch;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
-  border-bottom: 1px solid white;
 }
 
 .logo {
@@ -154,7 +157,7 @@ iframe {
 }
 
 #main-content {
-  padding-top: 15rem;
+  padding-top: 9rem;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
@@ -253,7 +256,7 @@ iframe {
 
 .project-image img {
   display: block;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -271,7 +274,7 @@ iframe {
 }
 
 .process-img {
-  width: 50%;
+  width: 100%;
 }
 
 .process-img img {
@@ -281,6 +284,8 @@ iframe {
 .image-caption {
   margin: 0 auto;
   font-size: 0.8rem;
+  line-height: normal;
+  padding: 0.5rem 1rem;
 }
 
 .youtube-video {
@@ -398,6 +403,7 @@ iframe {
   margin: 0 auto;
   width: 494px;
   height: 276px;
+  margin-bottom: 1rem;
 }
 
 .about-me {
@@ -475,10 +481,19 @@ iframe {
 
 .project-description p {
   line-height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .project-learn-more {
   padding: 0.5rem 1rem;
   background-color: #026699;
   color: white;
+  border: 2px solid #026699;
+  transition: 0.5s;
+}
+
+.project-learn-more:hover {
+  background-color: rgb(245, 245, 245);
+  color: #026699;
 }
