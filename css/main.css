@@ -182,6 +182,10 @@ iframe {
   color: #026699;
 }
 
+.styleguide h1, .styleguide h2 {
+    font-family: monospace;
+}
+
 /*.interactive-elements {
   width: 95%;
   margin: 0 auto;
@@ -238,6 +242,10 @@ iframe {
   background-color: #026699;
 }
 
+.color-swatch.white {
+  background-color: white;
+}
+
 /*-------PAGE TEMPLATE--------------*/
 
 .project-info, .project-content {
@@ -269,16 +277,21 @@ iframe {
 }
 
 .project-process.gifs {
-  width: 80%;
+  /*width: 80%;*/
   margin: 0 auto;
 }
 
 .process-img {
   width: 100%;
+  padding: 0.1rem;
 }
 
 .process-img img {
   max-width: 100%;
+}
+
+.process-img.uml-diagram {
+  margin: 0 auto;
 }
 
 .image-caption {
