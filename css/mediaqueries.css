@@ -1,7 +1,17 @@
+@media(min-width: 28.125em) {
+  .process-img.nomad-screens {
+    width: 50%;
+  }
+
+}
 @media(min-width: 40.625em) {
 
   p {
     font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 
   .mobile-nav {
