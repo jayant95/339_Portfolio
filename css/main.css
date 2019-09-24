@@ -510,3 +510,20 @@ iframe {
   background-color: rgb(245, 245, 245);
   color: #026699;
 }
+
+
+.project-img.double img {
+  display: inline-block;
+  width: 100%;
+}
+
+.external-links {
+  padding: 2rem 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.external-links a{
+  padding: 1rem;
+  color: white;
+}
