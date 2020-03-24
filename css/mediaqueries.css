@@ -67,6 +67,10 @@
     width: 70%;
   }
 
+  .project-image.single img {
+    width: 100%;
+  }
+
   .process-img {
     width: 50%;
   }

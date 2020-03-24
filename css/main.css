@@ -776,6 +776,23 @@ iframe {
   width: 100%;
 }
 
+.project-image.single {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-by-side img {
+  width: 48%;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
 .external-links {
   padding: 2rem 1rem;
   position: absolute;
