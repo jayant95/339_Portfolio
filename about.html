@@ -2,11 +2,12 @@
 <html lang="en">
 
   <head>
-  	<title>Jayant Tailor | Developer</title>
+  	<title>Jayant Tailor | Full Stack Developer</title>
 
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
@@ -15,14 +16,22 @@
   <body>
 
     <nav id="main-nav">
-      <div class="main-nav-content">
+      <div class="main-nav-content" id="main-navigation">
         <div class="logo">
           <img src="img/logo.png" alt="site logo">
-          <a class="site-logo" href="index.html">Jayant Tailor</a>
+          <a class="site-logo" href="http://jayanttailor.com/">Jayant Tailor</a>
         </div>
+        <ul class="right-nav">
+          <li class="nav-item"><a href="index.html#my-work">Work</a></li>
+          <li class="nav-item"><a target="_blank" href="includes/JayantTailor-resume.pdf">Resume</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-nav">
         <ul>
-          <li class="nav-item"><a id="about-btn" href="#home-container">Work</a></li>
-          <li class="nav-item"><a href="#contact-container">Resume</a></li>
+          <li class="nav-item"><a href="index.html#my-work">Work</a></li>
+          <li class="nav-item"><a target="_blank" href="includes/JayantTailor-resume.pdf">Resume</a></li>
           <li class="nav-item"><a href="about.html">About</a></li>
         </ul>
       </div>
@@ -30,57 +39,65 @@
 
     <div id="main-content">
       <div class="page-content">
-        <h1>aboutMe()</h1>
+        <div class="about-info">
+          <div class="about-section avatar">
+            <img src="img/avatar_aboutMe.png">
+          </div>
+          <div class="about-section story">
+            <p>Hello! I am a recent graduate from Simon Fraser University with a B.Sc. in Interactive Systems. Previously, I worked at SAP as an intern where one of my many tasks included 
+              fixing front-end and back-end issues for SAP Analytics Cloud. Most recently, inspired by my interest in bodybuilding, I created Deltoyd, a web application tool for bodybuilders to uniquely compare their
+              physiques with professional bodybuilders. Deltoyd also helps keep track of progression through muscle measurements, progress pictures and setting new goals to achieve their physique. 
+            </p>
 
-          <p>I'm currently pursuing major in the Interactive Arts and Technology program and a minor in Computer Science at Simon Fraser University.
-            Object-oriented programming and web development is a strong interest of mine and I'm eager to learn and add to my repertoire.
-            I understand the importance of applying new knowledge into my design practices. I also love a good challenge to strengthen my drive to learn.
-            I recently just finished an 8 month co-op at SAP Vancouver as an Agile Developer where I helped developed new features and fixed bugs with SAP Analytics Cloud.
-          </p>
+            <p>
+              My technical background encompasses front-end and back-end technologies including JavaScript, Java, PHP, SQL, C#, React, JSON, XML, HTML and CSS. Within JavaScript I have also used D3.js, Node, jQuery, Express as well
+              as the Jasmine and Mocha frameworks for automated test coverage. In addition, I understand Object-oriented Programming, MVC framework and REST API's. 
+            </p>
 
-      </div>
-
-      <!-- <div class="hamburger-menu">
-        <a class="hamburger-button" href="#">
-          <img src="img/hamburger.png" alt="hamburger menu icon">
-        </a>
-      </div> -->
-    </div>
-
-    <!-- <div class="my-work">
-      <div class="project-container sap">
-        <a class="image-link" href="sap.html">
-          <img src="img/sap_logo.png" alt="SAP logo">
-        </a>
-        <div class="work-description">
-          <h3>Agile Developer Intern</h3>
+            <p>
+              To go along with my programming interests, I am also an avid NBA enthusiast who also enjoys travelling to new places, learning electric guitar, keeping a consistent exercise routine, and playing board games with friends. 
+            </p>
+          </div>
         </div>
       </div>
-      <div class="project-container nomad">
-        <a href="nomadBookings.html">
-          <img src="img/nomadBookings.png" alt="nomad bookings android app">
-        </a>
-        <div class="work-description">
-          <h3>Android Application (Java)</h3>
+
+
+      <div class="other-projects about-all">
+        <div class="other-work all">
+          <a href="http://mambaandme.com/">
+              <h3>MambaAndMe</h3>
+              <p>PHP | JavaScript | HTML | CSS | MySQL</p>
+          </a>
+        </div>
+        <div class="other-work all">
+          <a href="physique.html">
+              <h3>Deltoyd</h3>
+              <p>PHP | JavaScript | HTML | CSS | MySQL</p>
+          </a>
+        </div>   
+        <div class="other-work all">
+          <a href="sap.html">
+            <h3>SAP Analytics Cloud</h3>
+            <p>JavaScript | Maven | Jasmine | Node.js</p>
+          </a>
+        </div>
+
+        <div class="other-work all">
+          <a href="duckyRoad.html">
+            <h3>Unity Game Design</h3>
+            <p>C# | Unity</p>
+          </a>
         </div>
       </div>
-      <div class="project-container duckyRoad">
-        <a href="duckyRoad.html">
-          <img src="img/duckyRoad_2.png" alt="ducky road unity game">
-        </a>
-        <div class="work-description">
-          <h3>Unity Game (C#)</h3>
-        </div>
-      </div>
-      <div class="project-container survival">
-        <a href="survival.html">
-          <img src="img/survival.png" alt="java survival simulation">
-        </a>
-        <div class="work-description">
-          <h3>Multimedia programming (Java)</h3>
-        </div>
-      </div>
-    </div> -->
+    </div>    
+      
+      <footer>
+        <div class="external-links">
+            <a href="https://github.com/jayant95/">Github</a>
+            <a href="https://www.linkedin.com/in/jayant-tailor-0a4954193/">LinkedIn</a>
+          </div>
+      </footer>
+
 
 
   </body>

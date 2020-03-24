@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-  	<title>Jayant Tailor | Developer</title>
+  	<title>Jayant Tailor | Full Stack Developer</title>
 
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,30 +16,30 @@
   <body>
 
     <nav id="main-nav">
-      <div class="main-nav-content">
+      <div class="main-nav-content" id="main-navigation">
         <div class="logo">
           <img src="img/logo.png" alt="site logo">
-          <a class="site-logo" href="index.html">Jayant Tailor</a>
+          <a class="site-logo" href="http://jayanttailor.com/">Jayant Tailor</a>
         </div>
         <ul class="right-nav">
           <li class="nav-item"><a href="index.html#my-work">Work</a></li>
-          <li class="nav-item"><a href="includes/JayantTailor-resume.pdf">Resume</a></li>
-          <li class="nav-item"><a href="index.html#about-section">About</a></li>
+          <li class="nav-item"><a target="_blank" href="includes/JayantTailor-resume.pdf">Resume</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
         </ul>
       </div>
 
       <div class="mobile-nav">
         <ul>
           <li class="nav-item"><a href="index.html#my-work">Work</a></li>
-          <li class="nav-item"><a href="includes/JayantTailor-resume.pdf">Resume</a></li>
-          <li class="nav-item"><a href="index.html#about-section">About</a></li>
+          <li class="nav-item"><a target="_blank" href="includes/JayantTailor-resume.pdf">Resume</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
         </ul>
       </div>
     </nav>
 
     <div id="main-content">
-      <div class="project-image">
-        <img src="img/nomadBookings.png" alt="nomad booking app screens">
+      <div class="project-image nomad">
+        <img src="img/nomad_bookings_icon.png" alt="nomad booking app screens">
       </div>
 
       <div class="project-info">
@@ -63,7 +63,7 @@
         <p>We created a timeline for each week so we would keep on track and work in a timely manner. We stuck with this throughout the
           development of the application. For our first milestone we implemented each tab that
           linked to each other in addition to explicit intents that took the user information and displayed the results in google.
-          For our second milestone, I implemented the devices GPS feature which found the latitude and longitude and converted it
+          For our second milestone, a GPS feature was implement, which found the latitude and longitude and converted it
           into a city name. We planned to use this for the flights section of our app. However, when we learned of the QPX Express API,
           we realized that it needed an airport code so we instead moved the GPS location to the hotels, car rentals and attractions.
           This was so the user did not have to type in their location but instead was already there when they open the tab.
@@ -87,12 +87,12 @@
       </div>
 
       <div class="project-content">
-        <p>By the final milestone I completely revamped and redesigned the whole app using calendars, dropdowns, buttons, and a design
+        <p>By the final milestone the app was redesigned using calendars, dropdowns, buttons, and a design
           that looked more professional. The core idea of the app remained untouched but the UI of it was completely changed. QPX Express
            API was used to get valuable flight information regarding the users input. The user could input their location and destination
             from a preset dropdown list and departure date from a calendar which in turn would provide the price, airline, and duration
             for the top 3 deals. Since this data retrieval takes a few seconds I put it in a AsyncTask(separate thread) so the UI would
-            not freeze. I implemented a loading spinner so the user knows that the app is loading the results. The database feature was
+            not freeze. A loading spinner was added so the user knows that the app is loading the results. The database feature was
             accomplished with an SQLite Database to allow the user to save their search and allow to search for it later on.
         </p>
       </div>
@@ -118,24 +118,21 @@
         <p>The biggest challenge of this project was the implementation of the Google API QPX Express. This proved to be quite
            challenging as it was my first time using an API but was incredibly rewarding once working and implemented. There were not any
            examples showing how to even begin integrating QPX Express in Android Studio as most of them were done in PHP or C# for websites.
-           I managed to find one that was done in Java but not Android Studio. This gave me a good starting point as I worked from there to get
-           the data I wanted inside my app. This whole process took around a week to complete but was extremely necessary to get done to make
+           This gave us a good starting point as we worked from there to get
+           the data we wanted inside the app. This whole process took around a week to complete but was extremely necessary to get done to make
            the application practical and useful.
         </p>
 
         <h3>Outcome & Insights</h3>
-        <p>I am quite satisfied with the outcome of this application. I am glad that I pushed myself to learn new technology and how Google
+        <p>We were quite satisfied with the outcome of this application. I am glad that we pushed ourselves to learn new technology and how Google
            API's work. We presented our application prototype successfully to a class of 30 including the teaching assistant and professor.
-           I am going to continue with this application but focus more on the flights section. I would like to make this part into an app of
-           its own with more features and implement a way to click on the results to get more information. Right now it only searches for
-           one-way prices but I would like to learn and implement both one-way and round trip deals.
         </p>
       </div>
 
       <div class="other-projects">
         <div class="other-work">
           <a href="sap.html">
-            <h3>SAP Full Stack Developer</h3>
+            <h3>SAP Agile Developer</h3>
             <p>JavaScript | Maven | Jasmine | Node.js</p>
           </a>
         </div>
@@ -149,7 +146,7 @@
 
         <div class="other-work">
           <a href="physique.html">
-              <h3>Achieve The Physique</h3>
+              <h3>Deltoyd</h3>
               <p>PHP | JavaScript | HTML | CSS | MySQL</p>
           </a>
         </div>
